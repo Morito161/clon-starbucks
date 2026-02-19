@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 50px;
+    margin: 10px 20px;
+}
+.header-contenedor{
+    padding-left: 140px;
+    padding-right: 20px;
+    max-width: 1240px;
+}
+.header-left {
+    display: inline-flex;
+    list-style: none;
+    gap: 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+.header-left a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.header-left a:hover{
+    
+    color:#28a745
+}
+.header-left a:active{
+    color: rgb(0 0 0 / 87%)
+}
+.header-left a{
+    text-decoration: none;
+}
+.localizador{
+    height: 20px;
+}
+.header-right {
+    display: inline-flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    list-style: none;
+    gap: 20px;
+    float: right;
+    margin-right: 20px;
+}
+.header-right a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.button-ingresar{
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+.button-unete {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.button-unete a{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.button-unete a:hover{
+    opacity: 0.8;
+}
